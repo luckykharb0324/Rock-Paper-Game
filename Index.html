@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors | Resume Project</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+  <div class="game">
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="score">
+      <div>You: <span id="playerScore">0</span></div>
+      <div>Computer: <span id="computerScore">0</span></div>
+    </div>
+
+    <div class="choices">
+      <button class="choice" data-choice="rock">✊</button>
+      <button class="choice" data-choice="paper">✋</button>
+      <button class="choice" data-choice="scissors">✌️</button>
+    </div>
+
+    <div class="result" id="resultText">Make your move</div>
+    <div class="details" id="detailsText"></div>
+
+    <button class="reset" id="resetBtn">Reset Game</button>
+  </div>
+
+  <script src="Script.js"></script>
+</body>
+</html>
